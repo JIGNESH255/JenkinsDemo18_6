@@ -29,5 +29,11 @@ namespace JenkinsDemo18_6.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("getstring")]
+        public string Getstring()
+        {
+            return "abc";
+        }
     }
 }
