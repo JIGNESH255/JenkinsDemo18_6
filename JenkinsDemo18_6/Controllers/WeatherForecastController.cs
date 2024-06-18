@@ -52,6 +52,12 @@ namespace JenkinsDemo18_6.Controllers
         public string Getstring7()
         {
             return "xyz";
+        }  
+        
+        [HttpGet("getstring8")]
+        public string Getstring8()
+        {
+            return "xyz";
         }        
     }
 }
